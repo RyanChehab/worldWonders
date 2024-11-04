@@ -49,12 +49,6 @@ fetch('https://www.world-wonders-api.org/v0/wonders')
         wonderdiv.addEventListener('click', ()=>{
             window.location.href = `details.html?name=${encodeURIComponent(wonder.name)}`;
         })
-
-        // wonderdiv.appendChild(summary)
-        // wonderdiv.appendChild(location)
-        // wonderdiv.appendChild(year)
-        // wonderdiv.appendChild(categories)
-        // wonderdiv.appendChild(time_period)
     }) )
 .catch(error =>{
     console.error('Error',error)

@@ -1,0 +1,25 @@
+body{
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%,0%);
+}
+img{
+    width: 600px; 
+    height: 500px;
+}
+@media(max-width:660px){
+    body{
+        position: relative;
+    }
+    .container{
+        max-width: 330px;
+    }
+    img{
+        width: 400px;
+        height: 350px;
+    }
+}
